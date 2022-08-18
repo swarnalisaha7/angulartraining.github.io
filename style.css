@@ -1,0 +1,105 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: montserrat;
+}
+
+nav{
+    background: lightblue;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: whitesmoke;
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    line-height: 70px;
+    background: gray;
+    user-select: none;
+
+
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: black;
+    padding: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+main{
+    padding: 50px;
+    
+}
+
+section{
+    margin-bottom: 500px;
+    margin-left: 300px;
+}
+
+section article{
+    margin-left: 0px;
+    margin-right: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
+
+section h2{
+    font-size: 50px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+footer{
+    font-size: 20px;
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
